@@ -5,7 +5,7 @@ pipeline {
         stage('Clone from Git') {
             steps {
                 // Clone specific branch from Git
-                git branch: 'main', url: 'https://github.com/YOUR-USERNAME/my-jenkins-job.git'
+                git branch: 'main', url: 'https://github.com/19PA1A04B6/srikrishna.git'
             }
         }
 
